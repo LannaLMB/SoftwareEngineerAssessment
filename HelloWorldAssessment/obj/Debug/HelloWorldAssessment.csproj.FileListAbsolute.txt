@@ -1,0 +1,164 @@
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\ApplicationInsights.config
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\csc.exe
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\vbc.exe
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\VBCSCompiler.exe
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\HelloWorldAssessment.dll.config
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\HelloWorldAssessment.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\HelloWorldAssessment.pdb
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Antlr3.Runtime.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.SqlServer.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.Web.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.WindowsServer.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.ApplicationInsights.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Google.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Newtonsoft.Json.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Owin.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Helpers.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Mvc.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Optimization.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Razor.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Deployment.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Razor.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\WebGrease.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.Web.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.WindowsServer.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.ApplicationInsights.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Helpers.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Mvc.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Optimization.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Razor.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Deployment.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Razor.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Antlr3.Runtime.pdb
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Newtonsoft.Json.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.SqlServer.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Google.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.csprojResolveAssemblyReference.cache
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.dll
+c:\users\jake & lanna\documents\visual studio 2015\Projects\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.pdb
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\ApplicationInsights.config
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\csc.exe
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\vbc.exe
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\HelloWorldAssessment.dll.config
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\HelloWorldAssessment.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\HelloWorldAssessment.pdb
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Antlr3.Runtime.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.SqlServer.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.Web.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Newtonsoft.Json.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Owin.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Helpers.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Mvc.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Optimization.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Razor.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\WebGrease.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.Web.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Helpers.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Mvc.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Optimization.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.Razor.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Antlr3.Runtime.pdb
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Newtonsoft.Json.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\EntityFramework.SqlServer.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.csprojResolveAssemblyReference.cache
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.pdb
