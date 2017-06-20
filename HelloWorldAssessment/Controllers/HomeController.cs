@@ -29,6 +29,11 @@ namespace HelloWorldAssessment.Controllers
             return View();
         }
 
+        public ActionResult RegistrationForm()
+        {
+            return View();
+        }
+
 
     }
 }

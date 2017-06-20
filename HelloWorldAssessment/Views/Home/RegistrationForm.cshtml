@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "User Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center;">User Registration Form</h2>
+<h5 style="text-align:center;">Please Fill Out the Form Below</h5>
+
+<form style="text-align:center; background-color: #ADD8E6; border: 1px;" action="/Home/AddUser" method="post"
+      oninput="x.value=parseInt(range.value)+parseInt(0)">
+
+
+    <label> First Name </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Enter Your First Name" name="Userfname" required /><br /><br />
+
+
+    <label> Last Name </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Enter Your Last Name" name="Userlname" required /><br /><br />
+
+
+    <label> Address 1 </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Enter Your Address" name="Useraddress1" required /><br /><br />
+
+
+    <label> Address 2 </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Address Continued" name="Useraddress2" required /><br /><br />
+
+
+    <label> City </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Enter Your City" name="Usercity" required /><br /><br />
+
+
+    <label> State </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Enter Your Country" name="Usercountry" required /><br /><br />
+
+
+
+</form>
+
+
