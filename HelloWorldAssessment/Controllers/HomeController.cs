@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelloWorldAssessment.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,10 +30,19 @@ namespace HelloWorldAssessment.Controllers
             return View();
         }
 
+
         public ActionResult RegistrationForm()
         {
             return View();
         }
+
+
+        public ActionResult AddUser(UserInfo NewUser)
+        {
+            return View(NewUser);
+        }
+
+
 
 
     }
