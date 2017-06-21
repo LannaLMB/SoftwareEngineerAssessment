@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Admin Report - Registered Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center; font-weight:bold;">Admin Report - Registered Users</h2><br /><br />
+
+<br />
+<br />
+
+<a href="../AddUser"><p style="text-align:center">Add a New User</p></a>
+<br />
+
+
+   Search For a User
+
+<form action="/Home/SearchUser">
+
+    Who are you looking for? <input type="submit" value="Search" />
+
+    <select name="User">
+        @foreach (var element in ViewBag.User)
+        {
+            <option value="@element">@element</option>
+        }
+    </select>
+</form>
+
+
+<br />
+<br />
+
+
+<table align="center" border="1" style="text-align:center">
+
+    @*Column First Name Sized, Centered, and Colored*@
+    <tr>
+    <th col width="100" style="text-align:center; background-color:peachpuff; font-weight:bold;"> First Name </th>
+
+
+
+    @*Column Last Name Sized, Centered, and Colored*@
+    <th col width="150" style="text-align:center; background-color:powderblue; font-weight:bold;"> Last Name </th>
+
+
+
+    @*Column Address 1 Sized, Centered, and Colored*@
+    <th col width="360" style="text-align:center; background-color:powderblue; font-weight:bold;"> Address 1 </th>
+
+
+
+    @*Column Address 2 Sized, Centered, and Colored*@
+    <th col width="75" style="text-align:center; background-color:powderblue; font-weight:bold;"> Address 2 </th>
+
+
+
+    @*Column City Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> City </th>
+
+
+    @*Column State Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> State </th>
+
+
+    @*Column Zipcode Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> Zipcode </th>
+
+
+    @*Column Country Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> Country </th>
+
+
+    @*Column E-Mail Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> E-Mail </th>
+
+
+    @*Column Password Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> Password </th>
+
+
+    @*Column Creation Date Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgreen; font-weight:bold;"> Date </th>
+
+
+    @*Column Delete Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgray; font-weight:bold;"> Delete </th>
+
+
+    @*Column Update Sized, Centered, and Colored*@
+    <th col width="90" style="text-align:center; background-color:lightgray; font-weight:bold;"> Update </th>
+
+
+
+    @*Fill the Table in With Data*@
+    @foreach (var element in ViewBag.UserList)
+    {
+    <tr>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@element.FirstName</td>
+        <td style="text-align:center; background-color:powderblue;">@element.LastName</td>
+        <td style="text-align:center; background-color:powderblue;">@element.Address1</td>
+        <td style="text-align:center; background-color:powderblue; font-style:italic;">@element.Address2</td>
+        <td style="text-align:center; background-color:powderblue;">@element.City</td>
+        <td style="text-align:center; background-color:powderblue;">@element.State</td>
+        <td style="text-align:center; background-color:powderblue;">@element.Zipcode</td>
+        <td style="text-align:center; background-color:powderblue;">@element.Country</td>
+        <td style="text-align:center; background-color:powderblue;">@element.Email</td>
+        <td style="text-align:center; background-color:powderblue;">@element.Password</td>
+        <td style="text-align:center; background-color:powderblue;">@element.CreationDate</td>
+        <td col width="30" style="text-align:center; background-color:lightgray;"><a href="/CoffeeShop/DeleteItem?ItemID=@element.ItemID" onclick="return confirm('Are You Sure?')"><span class="glyphicon glyphicon-remove"></span></a></td>
+        <td col width="30" style="text-align:center; background-color:lightgray;"><a href="/CoffeeShop/UpdateItem?ItemID=@element.ItemID"><span class="glyphicon glyphicon-pencil"></span></a></td>
+    </tr>
+    }
+
+
+
+        </table>
+

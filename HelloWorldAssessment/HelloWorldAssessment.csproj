@@ -77,6 +77,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SoftGage.EntityFramework.Migrations, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SoftGage.EntityFramework.Migrations.1.0.1\lib\net452\SoftGage.EntityFramework.Migrations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -200,34 +204,20 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AspNetRole.cs">
-      <DependentUpon>HelloWorldDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetUser.cs">
-      <DependentUpon>HelloWorldDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetUserClaim.cs">
-      <DependentUpon>HelloWorldDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetUserLogin.cs">
-      <DependentUpon>HelloWorldDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\C__MigrationHistory.cs">
-      <DependentUpon>HelloWorldDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\HelloWorldDBModel.Context.cs">
+    <Compile Include="Models\HelloWorldDBModel2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HelloWorldDBModel.Context.tt</DependentUpon>
+      <DependentUpon>HelloWorldDBModel2.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\HelloWorldDBModel.cs">
+    <Compile Include="Models\HelloWorldDBModel2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HelloWorldDBModel.tt</DependentUpon>
+      <DependentUpon>HelloWorldDBModel2.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\HelloWorldDBModel.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -236,6 +226,9 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\User.cs">
+      <DependentUpon>HelloWorldDBModel2.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -247,15 +240,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\HelloWorldDBModel.Context.tt">
+    <Content Include="Models\HelloWorldDBModel2.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>HelloWorldDBModel.edmx</DependentUpon>
-      <LastGenOutput>HelloWorldDBModel.Context.cs</LastGenOutput>
+      <LastGenOutput>HelloWorldDBModel2.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\HelloWorldDBModel.tt">
+    <Content Include="Models\HelloWorldDBModel2.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>HelloWorldDBModel.edmx</DependentUpon>
-      <LastGenOutput>HelloWorldDBModel.cs</LastGenOutput>
+      <LastGenOutput>HelloWorldDBModel2.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -294,7 +287,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Confirmation.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -316,9 +308,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\RegistrationForm.cshtml" />
+    <Content Include="Views\Home\AdminReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

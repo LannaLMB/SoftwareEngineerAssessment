@@ -142,7 +142,7 @@ namespace HelloWorldAssessment.Controllers
             {
                 await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
             }
-            return RedirectToAction("Index", "Manage");
+            return RedirectToAction("RegistrationForm", "Manage");
         }
 
         //
@@ -157,7 +157,7 @@ namespace HelloWorldAssessment.Controllers
             {
                 await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
             }
-            return RedirectToAction("Index", "Manage");
+            return RedirectToAction("RegistrationForm", "Manage");
         }
 
         //
@@ -187,7 +187,7 @@ namespace HelloWorldAssessment.Controllers
                 {
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
                 }
-                return RedirectToAction("Index", new { Message = ManageMessageId.AddPhoneSuccess });
+                return RedirectToAction("RegistrationForm", new { Message = ManageMessageId.AddPhoneSuccess });
             }
             // If we got this far, something failed, redisplay form
             ModelState.AddModelError("", "Failed to verify phone");
@@ -203,14 +203,14 @@ namespace HelloWorldAssessment.Controllers
             var result = await UserManager.SetPhoneNumberAsync(User.Identity.GetUserId(), null);
             if (!result.Succeeded)
             {
-                return RedirectToAction("Index", new { Message = ManageMessageId.Error });
+                return RedirectToAction("RegistrationForm", new { Message = ManageMessageId.Error });
             }
             var user = await UserManager.FindByIdAsync(User.Identity.GetUserId());
             if (user != null)
             {
                 await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
             }
-            return RedirectToAction("Index", new { Message = ManageMessageId.RemovePhoneSuccess });
+            return RedirectToAction("RegistrationForm", new { Message = ManageMessageId.RemovePhoneSuccess });
         }
 
         //
@@ -238,7 +238,7 @@ namespace HelloWorldAssessment.Controllers
                 {
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
                 }
-                return RedirectToAction("Index", new { Message = ManageMessageId.ChangePasswordSuccess });
+                return RedirectToAction("RegistrationForm", new { Message = ManageMessageId.ChangePasswordSuccess });
             }
             AddErrors(result);
             return View(model);
@@ -267,7 +267,7 @@ namespace HelloWorldAssessment.Controllers
                     {
                         await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
                     }
-                    return RedirectToAction("Index", new { Message = ManageMessageId.SetPasswordSuccess });
+                    return RedirectToAction("RegistrationForm", new { Message = ManageMessageId.SetPasswordSuccess });
                 }
                 AddErrors(result);
             }

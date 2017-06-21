@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SoftGage.EntityFramework.Migrations</name>
+    </assembly>
+    <members>
+        <member name="T:SoftGage.EntityFramework.Migrations.Annotations.EncryptedWithAttribute">
+            <summary>
+            Specifies encrypting columns by using the Always Encrypted feature.
+            <remarks>
+            Please notice that this feature is only supported by Microsoft SQL Server 2016 onwards.
+            Please visit https://msdn.microsoft.com/en-us/library/mt163865.aspx for more information.
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:SoftGage.EntityFramework.Migrations.Annotations.EncryptedWithAttribute.KeyName">
+            <summary>
+            Specifies the column encryption key to use.
+            </summary>
+        </member>
+        <member name="P:SoftGage.EntityFramework.Migrations.Annotations.EncryptedWithAttribute.Type">
+            <summary>
+            Specifies the encryption type to use.
+            </summary>
+        </member>
+        <member name="M:SoftGage.EntityFramework.Migrations.Annotations.EncryptedWithAttribute.#ctor(System.String)">
+            <summary>
+            Creates an instance of <see cref="T:SoftGage.EntityFramework.Migrations.Annotations.EncryptedWithAttribute"/>.
+            </summary>
+            <param name="keyName">Column encryption key to use.</param>
+        </member>
+        <member name="T:SoftGage.EntityFramework.Migrations.Annotations.EncryptionType">
+            <summary>
+            Use deterministic encryption for columns that will be search parameters or grouping parameters, for example a government ID number.
+            Use randomized encryption, for data such as a credit card number, which is not grouped with other records, or used to join tables, and which is not
+            searched for because you use other columns (such as a transaction number) to find the row which contains the encrypted column of interest.
+            Columns must be of a qualifying data type.
+            </summary>
+        </member>
+        <member name="F:SoftGage.EntityFramework.Migrations.Annotations.EncryptionType.Deterministic">
+            <summary>
+            Deterministic encryption uses a method which always generates the same encrypted value for any given plain text value.
+            Using deterministic encryption allows searching using equality comparison, grouping, and joining tables using equality joins
+            based on encrypted values, but can also allow unauthorized users to guess information about encrypted values by examining
+            patterns in the encrypted column.
+            Joining two tables on columns encrypted deterministically is only possible if both columns are encrypted using the same column encryption key.
+            Deterministic encryption must use a column collation with a binary2 sort order for character columns.
+            </summary>
+        </member>
+        <member name="F:SoftGage.EntityFramework.Migrations.Annotations.EncryptionType.Randomized">
+            <summary>
+            Randomized encryption uses a method that encrypts data in a less predictable manner.
+            Randomized encryption is more secure, but prevents equality searches, grouping, and joining on encrypted columns.
+            Columns using randomized encryption cannot be indexed.
+            </summary>
+        </member>
+        <member name="T:SoftGage.EntityFramework.Migrations.Annotations.DefaultConstraintAttribute">
+            <summary>
+            Allows to set a default value of a property.
+            </summary>
+        </member>
+        <member name="P:SoftGage.EntityFramework.Migrations.Annotations.DefaultConstraintAttribute.Name">
+            <summary>
+            Constraint name.
+            </summary>
+        </member>
+        <member name="P:SoftGage.EntityFramework.Migrations.Annotations.DefaultConstraintAttribute.Value">
+            <summary>
+            Default value.
+            </summary>
+        </member>
+        <member name="M:SoftGage.EntityFramework.Migrations.Annotations.DefaultConstraintAttribute.#ctor(System.String)">
+            <summary>
+            Creates an instance of <see cref="T:SoftGage.EntityFramework.Migrations.Annotations.DefaultConstraintAttribute"/>.
+            </summary>
+            <param name="value">Default value.</param>
+        </member>
+        <member name="T:SoftGage.EntityFramework.Migrations.Annotations.NonClusteredAttribute">
+            <summary>
+            Preventes a Primary Key to create a Clustered Index.
+            </summary>
+        </member>
+        <member name="T:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext">
+            <summary>
+            Database context with extended settings.
+            This context disables the following configurations:
+            <list type="bullet">
+              <item><description>AutoDetectChangesEnabled,</description></item>
+              <item><description>ProxyCreationEnabled.</description></item>
+            </list>
+            Removes the following conventions:
+            <list type="bullet">
+              <item><description><see cref="T:System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention"/>.</description></item>
+            </list>
+            Extends with the following conventions:
+            <list type="bullet">
+              <item><description><see cref="T:SoftGage.EntityFramework.Migrations.Conventions.TableDescriptionAnnotationConvention"/>,</description></item>
+              <item><description><see cref="T:SoftGage.EntityFramework.Migrations.Conventions.ColumnDescriptionAnnotationConvention"/>,</description></item>
+              <item><description><see cref="T:SoftGage.EntityFramework.Migrations.Conventions.ColumnNonClusteredAnnotationConvention"/>,</description></item>
+            <item><description><see cref="T:SoftGage.EntityFramework.Migrations.Conventions.ColumnEncryptedAnnotationConvention"/>,</description></item>
+              <item><description><see cref="T:SoftGage.EntityFramework.Migrations.Conventions.DefaultConstraintAnnotationConvention"/>.</description></item>
+            </list>
+            </summary>
+        </member>
+        <member name="M:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext.#ctor">
+            <summary>
+            Initializes an instance of <see cref="T:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext"/>.
+            <remarks>
+            Uses the default connection string name "DefaultConnection".
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext.#ctor(System.String)">
+            <summary>
+            Initializes an instance of <see cref="T:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext"/>.
+            </summary>
+            <param name="nameOrConnectionString">Name or connection string.</param>
+        </member>
+        <member name="M:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            This method is called when the model for a derived context has been initialized, but
+            before the model has been locked down and used to initialize the context.
+            </summary>
+            <param name="modelBuilder">The builder that defines the model for the context being created. </param>
+        </member>
+        <member name="T:SoftGage.EntityFramework.Migrations.Extensions.ExtendedConfiguration`1">
+            <summary>
+            Base migrations configuration for <see cref="T:SoftGage.EntityFramework.Migrations.Extensions.ExtendedDbContext"/>.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:SoftGage.EntityFramework.Migrations.Extensions.ExtendedConfiguration`1.#ctor">
+            <summary>
+            Creates an instance of <see cref="T:SoftGage.EntityFramework.Migrations.Extensions.ExtendedConfiguration`1"/>.
+            </summary>
+        </member>
+        <member name="T:SoftGage.EntityFramework.Migrations.ExtendedSqlGenerator">
+            <summary>
+            Extended SQL Server Migration - SQL Generator.
+            Extended features:
+            <list type="bullet">
+              <item><description>Descriptions on table objects.</description></item>
+              <item><description>Descriptions on column objects.</description></item>
+              <item><description>Default constraints.</description></item>
+              <item><description>Non-clustered indexes.</description></item>
+              <item><description>Always-Encrypted columns.</description></item>
+            </list>
+            </summary>
+        </member>
+    </members>
+</doc>

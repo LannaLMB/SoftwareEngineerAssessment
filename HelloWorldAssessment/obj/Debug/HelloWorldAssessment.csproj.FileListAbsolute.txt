@@ -162,3 +162,5 @@ C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\Micr
 C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.csprojResolveAssemblyReference.cache
 C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.dll
 C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\obj\Debug\HelloWorldAssessment.pdb
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\SoftGage.EntityFramework.Migrations.dll
+C:\Users\Jake & Lanna\Desktop\HelloWorldAssessment\HelloWorldAssessment\bin\SoftGage.EntityFramework.Migrations.xml

@@ -13,13 +13,16 @@ namespace HelloWorldAssessment.Models
         private string address2;
         private string city;
         private string state;
+        private int zipcode;
         private string country;
         private string email;
         private string pword;
+        private DateTime date;
 
 
 
-#region Properties
+        #region Properties - Declare Getters and Setters
+
         // Userfname
         public string Userfname
         {
@@ -116,6 +119,22 @@ namespace HelloWorldAssessment.Models
 
 
 
+        // Userzipcode
+        public int Userzipcode
+        {
+            set
+            {
+                zipcode = value;
+            }
+
+            get
+            {
+                return zipcode;
+            }
+        }
+
+
+
         // Usercountry
         public string Usercountry
         {
@@ -148,7 +167,7 @@ namespace HelloWorldAssessment.Models
 
 
 
-        // Usercountry
+        // Userpword
         public string Userpword
         {
             set
@@ -162,18 +181,36 @@ namespace HelloWorldAssessment.Models
             }
         }
 
-#endregion
+
+
+        // Userdate
+        public DateTime Userdate
+        {
+            set
+            {
+                date = value;
+            }
+
+            get
+            {
+                return date;
+            }
+        }
+
+        #endregion
 
 
 
-        public UserInfo() : this("", "", "", "", "", "", "", "", "")
+        #region Constructor
+
+        public UserInfo() : this("", "", "", "", "", "", 0, "", "", "",default(DateTime))
         {
 
 
         }
 
 
-        public UserInfo(string fname, string lname, string address1, string address2, string city, string state, string country, string email, string pword)
+        public UserInfo(string fname, string lname, string address1, string address2, string city, string state, int zipcode, string country, string email, string pword, DateTime date)
         {
             this.fname = fname;
             this.lname = lname;
@@ -181,9 +218,13 @@ namespace HelloWorldAssessment.Models
             this.address2 = address2;
             this.city = city;
             this.state = state;
+            this.zipcode = zipcode;
             this.country = country;
             this.email = email;
             this.pword = pword;
+            this.date = date;
         }
+
+        #endregion
     }
 }

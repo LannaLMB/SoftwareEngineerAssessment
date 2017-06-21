@@ -1,13 +1,13 @@
 ﻿
-@{
+@*@{
     ViewBag.Title = "User Registration";
     Layout = "~/Views/Shared/_Layout.cshtml";
-}
+}*@
 
 <h2 style="text-align:center;">User Registration Form</h2>
 <h5 style="text-align:center;">Please Fill Out the Form Below</h5>
 
-<form style="text-align:center; background-color: #ADD8E6; border: 1px;" action="/Home/AddUser" method="post"
+<form style="text-align:center; background-color: #ADD8E6; border: 1px;" action="/Home/Confirmation" method="post"
       oninput="x.value=parseInt(range.value)+parseInt(0)">
 
 
@@ -35,8 +35,21 @@
     <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="Enter Your State" name="Userstate" required /><br /><br />
 
 
+    <label> Zipcode </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="number" placeholder="12345-6789" name="Userstate" required /><br /><br />
+
+
     <label> Country </label><br />
     <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="text" placeholder="US" name="Usercountry" required /><br /><br />
+
+
+    <label> E-Mail </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="email" placeholder="Someone@something.com" name="Useremail" required /><br /><br />
+
+
+    <label> Password </label><br />
+    <input style="text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;" type="password" placeholder="Please Enter a Password" name="Userpword" required /><br /><br />
+
 
     <label> How Much Do You Want To Hire Me? </label><br />
     <strong> Get Rid of Her! </strong> &nbsp; <input type="range" name="Amount" id="range" value="0" min="0" max="10" />

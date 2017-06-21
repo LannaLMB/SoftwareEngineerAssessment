@@ -1,12 +1,66 @@
-﻿@{
-    ViewBag.Title = "Confirmation Page";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿@*@{
+    ViewBag.Title = "Confirmation of Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
 
-@model HelloWorldAssessment.Models.UserInfo
+@*<h2 style="text-align:center">@ViewBag.Title</h2>*@
+
+@*@model HelloWorldAssessment.Models.UserInfo*@
 
 
-<h2> Confirmation of Registration </h2>
-<h1> Thank You for Registering @Model.Userfname, @Model.Userlname</h1>
+@*Fill The Table Will The User's Registration Data*@
+
+
+    @*<table>
+        <tr>
+
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Userfname</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Userlname</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Useraddress1</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Useraddress2</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Usercity</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Userstate</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Userzipcode</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Usercountry</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Useremail</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Userpword</td>
+            <td style="text-align:center; background-color:peachpuff; font-weight:bold;">@Model.Userdate</td>
+
+        </tr>
+    </table>*@
+
+
+<table>
+    <tr>
+
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Userfname</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Userlname</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Useraddress1</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Useraddress2</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Usercity</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Userstate</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Userzipcode</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Usercountry</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Useremail</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Userpword</td>
+        <td style="text-align:center; background-color:peachpuff; font-weight:bold;">Userdate</td>
+
+    </tr>
+</table>
+
+
+
+@*<h1 style="text-align:center"> Thank You for Registering @Model.fname @Model.LastName</h1>
+<h2 style="text-align:center"> Your Information: </h2>
+<h4 style="text-align:center"> First Name: @Model.LastName</h4>
+<h4 style="text-align:center"> Last Name: @Model.LastName</h4>
+<h4 style="text-align:center"> Address 1: @Model.Address1</h4>
+<h4 style="text-align:center"> Address 2: @Model.Address2</h4>
+<h4 style="text-align:center"> City: @Model.City</h4>
+<h4 style="text-align:center"> State: @Model.State</h4>
+<h4 style="text-align:center"> Zipcode: @Model.Zipcode</h4>
+<h4 style="text-align:center"> Country: @Model.Country</h4>
+<h4 style="text-align:center"> E-Mail: @Model.Email</h4>
+<h4 style="text-align:center"> Password: @Model.Password</h4>*@
+
 
